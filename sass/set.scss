@@ -1,0 +1,12 @@
+.reveal.page .slides section:not(.stack):before
+{
+  background: none;
+}
+.reveal.page .slides section:not(.stack):after
+{
+  box-shadow: none;
+}
+iframe {
+  width: 100%;
+  height: 100%;
+}

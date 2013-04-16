@@ -1,0 +1,15 @@
+/* line 2, ../sass/set.scss */
+.reveal.page .slides section:not(.stack):before {
+  background: none;
+}
+
+/* line 6, ../sass/set.scss */
+.reveal.page .slides section:not(.stack):after {
+  box-shadow: none;
+}
+
+/* line 9, ../sass/set.scss */
+iframe {
+  width: 100%;
+  height: 100%;
+}
