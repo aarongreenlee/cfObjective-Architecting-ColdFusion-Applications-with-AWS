@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1296px" height="980px" viewBox="0 0 1296 980" enable-background="new 0 0 1296 980" xml:space="preserve">
+<line fill="none" stroke="#000000" stroke-width="6" stroke-miterlimit="10" x1="304" y1="358" x2="740" y2="572"/>
+<path fill="#D8D823" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M835,605c0,6.627-5.373,12-12,12H657
+	c-6.627,0-12-5.373-12-12v-66c0-6.627,5.373-12,12-12h166c6.627,0,12,5.373,12,12V605z"/>
+<path fill="#D8D823" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M433.715,393.363c0,6.627-5.373,12-12,12h-236
+	c-6.627,0-12-5.373-12-12v-70c0-6.627,5.373-12,12-12h236c6.627,0,12,5.373,12,12V393.363z"/>
+<g>
+	<polygon fill="#E9E313" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="303.715,80.238 316.605,106.358 
+		345.432,110.547 324.573,130.879 329.497,159.588 303.715,146.033 277.933,159.588 282.856,130.879 261.998,110.547 
+		290.824,106.358 	"/>
+	<text transform="matrix(1 0 0 1 268.4805 65.9995)" font-family="'MyriadPro-Bold'" font-size="30">Login</text>
+</g>
+<text transform="matrix(1 0 0 1 243.1152 367.1689)" font-family="'MyriadPro-Regular'" font-size="30">“onLogin”</text>
+<text transform="matrix(1 0 0 1 654.3809 580.8047)" font-family="'MyriadPro-Regular'" font-size="30">“Award Point”</text>
+<text transform="matrix(1 0 0 1 37.832 109.0435)" font-family="'MyriadPro-CondIt'" font-size="30">User Actions</text>
+<text transform="matrix(1 0 0 1 13.3232 367.1689)" font-family="'MyriadPro-CondIt'" font-size="30">System Actions</text>
+</svg>

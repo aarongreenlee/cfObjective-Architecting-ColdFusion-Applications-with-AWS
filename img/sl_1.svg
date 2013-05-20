@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="612px" height="332.222px" viewBox="0 0 612 332.222" enable-background="new 0 0 612 332.222" xml:space="preserve">
+<path fill="#D22026" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M440,126.961c0,3.765-5.373,6.816-12,6.816H283
+	c-6.627,0-12-3.052-12-6.816V44.594c0-3.765,5.373-6.816,12-6.816h145c6.627,0,12,3.052,12,6.816V126.961z"/>
+<text transform="matrix(1 0 0 1 168 19.7783)" opacity="0.2" font-family="'MyriadPro-Bold'" font-size="19.043">RDS</text>
+<text transform="matrix(1 0 0 1 307 21.4443)" font-family="'MyriadPro-Bold'" font-size="19.043">DynamoDB</text>
+<g opacity="0.2">
+	
+		<rect x="122" y="51.92" fill-rule="evenodd" clip-rule="evenodd" fill="#EF4136" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="121" height="56.781"/>
+	
+		<ellipse fill-rule="evenodd" clip-rule="evenodd" fill="#F48281" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="182.5" cy="52.258" rx="60.5" ry="13.857"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#EF4136" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="
+		M122.037,79.635c0,0,3.361,14.195,59.468,14.195S243,79.635,243,79.635"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#EF4136" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="
+		M122.037,106.583c0,0,3.361,14.195,59.468,14.195S243,106.583,243,106.583"/>
+</g>
+<text transform="matrix(1 0 0 1 315.1143 64.1626)" fill="#FFFFFF" font-family="'MyriadPro-Bold'" font-size="15.1408">key = {value}</text>
+<text transform="matrix(1 0 0 1 315.1143 91.9907)" fill="#FFFFFF" font-family="'MyriadPro-Bold'" font-size="15.1408">key = {value}</text>
+<text transform="matrix(1 0 0 1 315.1143 117.4341)" fill="#FFFFFF" font-family="'MyriadPro-Bold'" font-size="15.1408">key = {value}</text>
+<text transform="matrix(1 0 0 1 58 179.7778)" fill="#278340" font-family="'CourierNewPS-BoldMT'" font-size="18">ObjectDAO.getContent(ids=Query.valueList(’pk’);</text>
+</svg>

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 
 <head>
 	<meta charset="utf-8">
@@ -37,27 +37,44 @@
 		.goth .state-background {
 			background: url('img/goth.jpg');
 			background-position: top center;
-			background-size: contain	;
+			-webkit-transition: none;
+			background-repeat: none;
+			background-size: cover;
 		}
 
 		.atv .state-background {
 			background: url('img/atv.jpg');
 			background-position: center top;
+			-webkit-transition: none;
+		}
+
+		blockquote strong {
+			color: red;
+			text-shadow: 2px 2px 2px black;
 		}
 
 		.atv2 .state-background {
 			background: url('img/atv2.jpg');
 			background-position: center top;
+			-webkit-transition: none;
+		}
+
+		.atv3 .state-background {
+			background: url('img/atv3.jpg');
+			background-position: center top;
+			-webkit-transition: none;
 		}
 
 		.edex .state-background {
 			background: url('img/edex.jpg');
 			background-position: center top;
+			-webkit-transition: none;
 		}
 
 		.edex2 .state-background {
 			background: url('img/edex2.jpg');
 			background-position: center top;
+			-webkit-transition: none;
 		}
 
 		.darken {
@@ -67,10 +84,130 @@
 		.wbm .state-background {
 			background: url('img/wbgrunge.png');
 			color: white;
+			-webkit-transition: none;
+		}
+		.pig .state-background {
+			background: url('img/pig.JPG');
+			color: white;
+			-webkit-transition: none;
+			background-position: top center;
+			background-size: cover;
+		}
+		.hoth .state-background {
+			background: url('img/hoth.jpg');
+			color: white;
+			-webkit-transition: none;
+			background-position: top center;
+			background-size: cover;
+		}
+
+		.servicecall .state-background {
+			background: url('img/sl_service.png');
+			color: white;
+			-webkit-transition: none;
+			background-position: top center;
+			background-repeat: no-repeat;
+			background-color: #272822;
+			background-size: contain;
+		}
+
+		.servicecall2 .state-background {
+			background: url('img/sl_service2.png');
+			color: white;
+			-webkit-transition: none;
+			background-position: top center;
+			background-repeat: no-repeat;
+			background-color: #272822;
+			background-size: contain;
+		}
+
+		.servicecall3 .state-background {
+			background: url('img/sl_service3.png');
+			color: white;
+			-webkit-transition: none;
+			background-position: top center;
+			background-repeat: no-repeat;
+			background-color: #272822;
+			background-size: contain;
+		}
+
+		.servicecall4 .state-background {
+			background: url('img/sl_service4.png');
+			color: white;
+			-webkit-transition: none;
+			background-position: top center;
+			background-repeat: no-repeat;
+			background-color: #272822;
+			background-size: contain;
+		}
+
+		.servicecall5 .state-background {
+			background: url('img/sl_service5.png');
+			color: white;
+			-webkit-transition: none;
+			background-position: top center;
+			background-repeat: no-repeat;
+			background-color: #272822;
+			background-size: contain;
+		}
+
+		.servicecall6 .state-background {
+			background: url('img/sl_service6.png');
+			color: white;
+			-webkit-transition: none;
+			background-position: top center;
+			background-repeat: no-repeat;
+			background-color: #272822;
+			background-size: contain;
+		}
+
+		.servicecall7 .state-background {
+			background: url('img/sl_service7.png');
+			color: white;
+			-webkit-transition: none;
+			background-position: top center;
+			background-repeat: no-repeat;
+			background-color: #272822;
+			background-size: contain;
+		}
+
+		.servicecall8 .state-background {
+			background: url('img/sl_service8.png');
+			color: white;
+			-webkit-transition: none;
+			background-position: top center;
+			background-repeat: no-repeat;
+			background-color: #272822;
+			background-size: contain;
+		}
+
+		.servicecall9 .state-background {
+			background: url('img/sl_service9.png');
+			color: white;
+			-webkit-transition: none;
+			background-position: top center;
+			background-repeat: no-repeat;
+			background-color: #272822;
+			background-size: contain;
+		}
+
+		.servicecall10 .state-background {
+			background: url('img/sl_service10.png');
+			color: white;
+			-webkit-transition: none;
+			background-position: top center;
+			background-repeat: no-repeat;
+			background-color: #272822;
+			background-size: contain;
+		}
+
+		.section .state-background {
+			background-color: yellow;
 		}
 		.wbm .reveal h1,.wbm .reveal h2,.wbm .reveal h3,.wbm .reveal h4,.wbm .reveal h5
 		.wbm .reveal p,.wbm .reveal {
-			color: white;
+			color: #ffde51;
+			text-shadow: 5px 5px 2px black;
 		}
 		.wbm dl {
 			background-color: rgba(0,0,0,.8);
@@ -78,9 +215,7 @@
 		}
 		dl {
 			overflow:hidden;
-			width: 32%;
-			float: left;
-
+			margin: 0 auto;
 		}
 		dt {
 			float: left;
@@ -89,6 +224,11 @@
 		dd {
 			float: left;
 		}
+
+		.wbm iframe {
+			border: 4px solid  #ffde51;
+		}
+
 		.wbm dt img {
 			border: 4px solid  #ffde51;
 			margin-left: 20px;
@@ -99,147 +239,343 @@
 			color: #ffde51;
 			font-weight: 700;
 		}
+		.reveal blockquote {
+			box-shadow: none;
+		}
 
+		#cover {
+
+		}
+		#video {
+			position: fixed; top: 0; width: 100%; height: 100%; z-index: -1;
+			background-color: black;
+		}
+		.cover #video.front {
+			visible:true;
+		}
+		#coverContent {
+			background-color: rgba(0,0,0,.7);
+			padding: 80px 20px;
+		}
+		#coverContent, #coverContent a {
+			color: white;
+			text-shadow: 5px 5px 3px black;
+		}
+		#coverContent h1, #final, #final h2 {
+			color: white;
+			font-weight: 700;
+			text-shadow: 5px 5px 3px black;
+		}
+		section.cover {
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			padding: 0;
+		}
 	</style>
 </head>
 
 <body>
+
+<div id="video">
+	<video id="front" src="img/bg.mp4" width="100%" height="100%" autoplay onended="vidEnded()"></video>
+</div>
 
 <div class="reveal">
 
 	<!-- Any section element inside of this container is displayed as a slide -->
 	<div class="slides">
 
+		<section data-state="cover">
+			<div id="cover">
+				<div id="coverContent">
+					<h1 style="font-size: 32px;">Architecting ColdFusion Applications with AWS</h1>
+					<p>
+						<small>Hosted by <a href="http://aarongreenlee.com/">Aaron Greenlee</a> / <a href="http://twitter.com/aarongreenlee">@aarongreenlee</a></small>
+					</p>
+					<img src="img/cfobjective.jpg" height="73" width="77">
+				</div>
+			</div>
+			<aside class="notes">
+				Welcome.<br>
+				Hang overs?<br>
+				Load AWS Elastic Beanstalk<br>
+				Load EdEx Homepage and User Profile (http://edex.adobe.com/member/677eb3102e/)<br>
+			</aside>
+		</section>
+
 		<section>
-			<h2>Architecting</h2><h1>ColdFusion</h1><h2>Applications</h2><h3> with AWS</h3>
-			<hr>
-			<p>
-				<small>Created by <a href="http://aarongreenlee.com/">Aaron Greenlee</a> / <a href="http://twitter.com/aarongreenlee">@aarongreenlee</a></small>
-			</p>
-			<img src="img/cfobjective.jpg" height="73" width="77">
+			<div>
+				<h2>Aaron Greenlee</h2>
+
+				<img src="img/AG.jpg">
+				<ul>
+					<li>Director of Development @ Wrecking Ball Media</li>
+					<li>Tampa, FL</li>
+				</ul>
+			</div>
+			<aside class="notes">
+				JavaScript since 1999<br>
+				CFML since 2000<br>
+				GoLang this year<br>
+				<br>You might recognize me from open source projects such as...
+			</aside>
+		</section>
+		<section data-state="hoth">
+			<aside class="notes">
+				5th most popular CF on GitHub<br>
+				Hoth exists to alert you to unique exceptions<br>
+				Track frequency of exceptions<br><br>
+				And from time to time...<br>
+			</aside>
 		</section>
 		<section>
+			<img src="img/coldbox.png" style="height: 50%">
+			<aside class="notes">
+				Occasional support to ColdBox Community<br>
+				WBM uses ColdBox for all CFML projects<br>
+				Big fan of framework<br>
+				<br>And if you are on Twitter you might have seen some funky images of me such as this...
+			<aside>
+		</section>
+		<section data-state="pig">
+			<aside class="notes">
+				Something my co-works gave me on Wednesday.
+			</aside>
+		</section>
+		<section>
+			<p>@aarongreenlee</p>
+			<aside class="notes">
+				And....  you should follow me on twitter.
+			</aside>
+		</section>
+
+
+		<section>
+			<img src="img/cfobjective.jpg" height="73" width="77">
 			<p>Thank you to the organizers and sponsors!</p>
 			<ul>
-				<li style="font-size: 32px; font-weight: 700;">Adobe</li>
-				<li style="font-size: 32px; font-weight: 700;">Railo</li>
-				<li style="font-size: 22px; font-weight: 600;">Mura</li>
-				<li style="font-size: 22px; font-weight: 600;">Hostek</li>
-				<li style="font-size: 22px; font-weight: 600;">Integral</li>
-				<li style="font-size: 22px; font-weight: 600;">Razuna</li>
-				<li style="font-size: 18px;">ten24 Digital Solutions</li>
-				<li style="font-size: 18px;">Vivio Technologies</li>
-				<li style="font-size: 18px;">conBOP</li>
+				<li style="font-size: 42px; font-weight: 700;">Adobe</li>
+				<li style="font-size: 42px; font-weight: 700;">Railo</li>
+				<li style="font-size: 32px; font-weight: 600;">Mura</li>
+				<li style="font-size: 32px; font-weight: 600;">Hostek</li>
+				<li style="font-size: 32px; font-weight: 600;">Integral</li>
+				<li style="font-size: 32px; font-weight: 600;">Razuna</li>
+				<li style="font-size: 24px;">ten24 Digital Solutions</li>
+				<li style="font-size: 24px;">Vivio Technologies</li>
+				<li style="font-size: 24px;">conBOP</li>
 			</ul>
+			<aside class="notes">
+				Important we recognize the hard work of organizers and investment of sponsors.<br>
+				Without their support none of us would be here today!
+			<aside>
 		</section>
 
 		<section>
 			<h2>And... Thank You!</h2>
-			<p>Thanks for attending this session.</p>
-			<p>I'm honored to be here with you.</p>
+			<aside class="notes">
+				Thanks for attending this session<br>
+				I am honored to be here with you.<br>
+			</aside>
 		</section>
 
 		<section data-state="wbm">
-			<h2><i>Shout Out</i></h2>
-			<div>
+			<h2><i>And... Thank Them!</i></h2>
+			<div style="width: 50%; margin: 0 auto;">
 				<dl>
 					<dt><img src="img/tr.jpg" width="100" height="100"></dt>
-					<dd><div class="sp">Todd Rafferty<br>@webrat</div></dd>
+					<dd><div class="sp">Todd Rafferty @webrat</div></dd>
 				</dl>
 				<dl>
 					<dt><img src="img/jb.jpg" width="100" height="100"></dt>
-					<dd><div class="sp">James Brown<br>@ibjhb</div></dd>
-				</dl>
-				<dl>
-					<dt><img src="img/jf.jpg" width="100" height="100"></dt>
-					<dd><div class="sp">Joe Fusco<br>@jfusco</div></dd>
+					<dd><div class="sp">James Brown @ibjhb</div></dd>
 				</dl>
 			</div>
+			<aside class="notes">
+				This knowledge was paid for with their help and hard work:<br>
+				Todd: SimpleDB; DynamoDB; SQS<br>
+				James: SQS<br>
+				Fusco: Efforts on ATV and EDEX<br>
+				<br>
+				<strong>We All Work At...</strong>
+			</aside>
+		</section>
+
+		<section data-state="wbm">
+			<iframe src="http://wreckingballmedia.com" width="100%" height="100%"></iframe>
+			<aside class="notes">
+				HQ in Ft Lauderdale<br>
+				Client work includes: Adobe, TimeWarner Cable, Brighthouse, YOD, Miami City Ballet, Bacardi and More<br>
+				You might have seen our work: Adobe TV, EdEx, Adobe Inspire iPad Magazine, Adobe MAX and more...<br>
+				But, today, we will be focused on learnings from two projects<br>
+			</aside>
 		</section>
 
 		<section data-state="atv">
-
+			<aside class="notes">
+				"Online video resource for expert instruction and inspiration about Adobe products."<br>
+				ColdBox<br>
+				WBM in 2009 v2<br>
+				WBM in 2011 v3<br>
+			</aside>
 		</section>
 		<section data-state="atv2">
+			<aside class="notes">
+				Millions of unique visitors month<br>
+				Last week we were doing 10k requests a second<br>
+				Available in five languages + Community Translations<br>
+				Moved from Rackspace to Amazon November, 2012 (Six Months Ago)<br>
+			</aside>
+		</section>
 
+		<section data-state="atv3">
+			<aside class="notes">
+				Running on ColdFusion 10<br>
+				Using a host of Amazon Services to power<br>
+				Desktop, Tablet and Mobile versions<br>
+				<br><br>
+				We'll also reference work done with...
+			</aside>
 		</section>
-		<section data-state="wbm">
-			<div class="darken">
-				<h2>Adobe TV</h2>
-				<ul>
-					<li>Millions of Unique Visitors a Month</li>
-					<li>Average 10k requests a second (not counting CDN or Streaming)</li>
-					<li>Goal is 250ms or less per request</li>
-					<li>Wrecking Ball created and launched:
-						<ul>
-							<li>Version Two (2009)</li>
-							<li>Version Three (2011)</li>
-						</ul>
-					</li>
-					<li>Two full time developers</li>
-				</ul>
-			</div>
-		</section>
-		<section data-state="wbm">
 
-		</section>
 		<section data-state="edex">
-
+			<aside class="notes">
+				Education Exchange exists to ignite creativity in class room<br>
+				and provide instructional resources; Professional Development and Peer-to-Peer support for educators<br>
+				ColdBox<br>
+				Built to run on AWS and Launched in Februay, 2013 (90 Days Ago)<br>
+			</aside>
 		</section>
 		<section data-state="edex2">
-
-		</section>
-		<section data-state="wbm">
-			<div class="darken">
-				<h2>Adobe Education Exchange</h2>
-				<ul>
-					<li>Started Discovery August 12, 2012</li>
-					<li>Launched February 13, 2013</li>
-					<li>83,000 Members</li>
-					<li>4,450 Educational Resources</li>
-					<li>250 Discussions</li>
-					<li>Two full time developers</li>
-				</ul>
-			</div>
-		</section>
-		<section data-state="wbm">
-			<div class="darken">
-				<h2>Who is this Aaron Greenlee?</h2>
-				<ul>
-					<li>Tampa, Florida</li>
-					<li>Director of Development @ Wrecking Ball Media</li>
-					<li>CFML; JavaScript (Client/Node); GoLang; Ruby</li>
-				</ul>
-			</div>
-		</section>
-		<section data-state="pig">
-
-		</section>
-		<section>
-			<p><blink>You should follow me on twitter @aarongreenlee</blink></p>
+			<aside class="notes">
+				Platform is doing well with<br>
+				85,000+ Members<br>
+				4,000+ Resources<br>
+				<br>We're exicted about our Gamification engine which was made easy thanks to AWS.
+			</aside>
 		</section>
 
 		<section>
 			<h2>Show of Hands</h2>
 			<ul>
 				<li>Played around with AWS?</li>
-				<li>Running a production app in AWS?</li>
+				<li class="fragment">Running a production app in AWS?</li>
+				<li class="fragment">Will be on AWS within 12 months?</li>
 			</ul>
+			<aside class="notes">
+				CLICK! CLICK! CLICK!
+				Quick census...<br>
+				Hope this presentation helps accelerate your work.<br>
+				Knowledge was paid for with blood, sweat and tears. More tears.<br>
+				<br>
+				This presentation has been broken up into four parts.
+			</aside>
+		</section>
+
+		<section>
+			<h2>Agenda</h2>
+			<ul>
+				<li>From Zero to Understanding AWS</li>
+				<li class="fragment">Adobe TV: Concrete Examples</li>
+				<li class="fragment">Adobe Education Exchange: Concrete Examples</li>
+				<li class="fragment">Questions/Answers</li>
+			</ul>
+			<aside class="notes">
+				CLICK! CLICK! CLICK!<br>
+				Outline some of the basic services we use<br>
+				Quick outline of ATV designs for AWS<br>
+				Show EDEX Site and explain how parts work<br>
+				QA<br>
+				This is meant to be a discussion NOT a presentation so I'll take short breaks to ask for questions.
+			</aside>
 		</section>
 
 		<section>
 			<h2>What is AWS?</h2>
 			<p><small><blockquote>Amazon Web Services (abbreviated AWS) is a <strong>collection of remote computing services</strong> (also called web services) that together make up a cloud computing platform, offered over the Internet by Amazon.com. The most central and well-known of these services are Amazon EC2 and Amazon S3. The service is advertised as providing a large computing capacity (potentially many servers) much faster and cheaper than building a physical server farm.</blockquote> - <a href="http://en.wikipedia.org/wiki/Amazon_Web_Services">Wikipedia</a></small></p>
+			<aside class="notes">
+				Computing Services<br>
+				A third of users on the Internet access AWS daily<br>
+				1% of all internet traffic comes from AWS<br>
+			</aside>
 		</section>
 
-		<section data-state="goth">
+		<section>
+			<h2>What is AWS to Management?</h2>
+			<ul>
+				<li class="fragment">Faster time to market</li>
+				<li class="fragment">Spend less money hosting your software ($120,000 savings from RS to AWS)</li>
+				<li class="fragment">Use buzz words in meetings</li>
+			</ul>
+			<aside class="notes">
+				CLICK! CLICK!<br>
+				An easy solution to pick thanks to big names<br>
+				Confidence in choosing a popular/well supported company<br>
+			</aside>
+		</section>
 
+		<section>
+			<h2>What is AWS to YOU?!?</h2>
+			<img src="img/AWS_LOGO_.gif" style="padding: 20px;">
+			<aside class="notes">
+				A toolbox - collection of powerful services you can use at will<br>
+				Offers flexibility<br>
+				Setup a new Environment, QA and slide into Load Balancer<br>
+				Scale your software to fit any load within minuts<br>
+				BUT - What is it really? A new way of running software.<br>
+			</aside>
+		</section>
+
+
+		<section data-state="goth">
+			<aside class="notes">
+				Benefits for me in last six months<br>
+				Less waiting - No Wait for Hardware or Environments<br>
+				Allow developers to "Build it/run it"<br>
+				Adobe TV as an example has two primary developers.<br>
+				<br>EDEX has two primary devs.
+				<br>No DBAs, QA, Ops Team
+				<br>AWS helps make this realistic.
+			</aside>
 		</section>
 
 		<section>
 			<h2>Where is AWS?</h2>
 			<small><a href="http://aws.amazon.com/about-aws/globalinfrastructure/#reglink-na">AWS' map</a></small>
 			<img src="img/map.svg" class="svg">
+			<aside class="notes">
+				Each star represents a region.<br>
+				For example, North Virgina is a AWS Region.
+			</aside>
+		</section>
+
+		<section>
+			<h2>AWS Fundamentals</h2>
+			<img src="img/region.svg" class="svg">
+			<aside class="notes">
+				Within each region are AZs<br>
+				An AZ is a datacenter (separate net/power)<br>
+				Easy to replicate between zones
+			</aside>
+		</section>
+
+		<section>
+			<h2>AWS Fundamentals</h2>
+			<img src="img/region2.svg" class="svg">
+			<aside class="notes">
+				Important for failure planning<br>
+				OR region in example consolidates database to one AZ<br>
+				This might be ok, but, you can replicate between zones!
+			</aside>
+		</section>
+
+		<section>
+			<h2>The Highest Availability</h2>
+			<img src="img/region4.svg" class="svg">
+			<aside class="notes">
+				If a problem occurs in one AZ don't let it impact another AZ or Region
+				<br>Stop and ask for questions.
+			</aside>
 		</section>
 
 		<section>
@@ -254,297 +590,667 @@
 				<li>Elastic Beanstalk</li>
 				<li>SQS</li>
 			</ul>
+			<aside class="notes">
+				EC2 - Virtualized Machines<br>
+				S3 - CDN<br>
+				SimpleDB - Non-Relational Database<br>
+				DynamoDB - NoSQL Database<br>
+				RDS - Managed Relational Database<br>
+				ElastiCache - Managed Cluster Caching<br>
+				Elastic Beanstalk - Java PaaS<br>
+				SQS - Safe Pub/Sub System<br>
+			</aside>
+		</section>
+
+
+		<section data-state="section">
+			<h2>Amazon Elastic Compute Cloud (<strong>EC2</strong>)</h2>
+			<aside class="notes"></aside>
+		</section>
+		<section>
+			<h3>What is an EC2</h3>
+			<p><blockquote>Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides <strong>resizable compute capacity in the cloud</strong>. It is designed to make web-scale computing easier for developers.</blockquote> - <a href="http://aws.amazon.com/ec2/faqs/#What_is_Amazon_Elastic_Compute_Cloud_Amazon_EC2">AWS</a></p>
+			<aside class="notes">
+				Resizable Computer<br>
+				Virtual Machine
+			</aside>
+		</section>
+		<section>
+			<h3>EC2 First Steps</h3>
+			<ul>
+				<li><a href="https://aws.amazon.com/marketplace/pp/B00BR6SYHW/ref=mkt_ste_whatsnew_codlfusion">ColdFusion 10 AMI</a> ("Amazon Machine Image")</li>
+				<li><a href="https://github.com/getrailo/railo/wiki/Railo_Installation#wiki-Cloud_Deployment">Railo AMI</a></li>
+				<li>
+					Create your own AMI
+					<ul>
+						<li>Start with your OS</li>
+						<li>Install your software (Apache? Nginx? Tomcat? ColdFusion?)</li>
+					</ul>
+				</li>
+			</ul>
+			<aside class="notes">
+				ColdFusion recently released a AMI charges by Hour<br>
+				Download Railo AMI<br>
+				Build Ow<br>
+			</aside>
+		</section>
+		<section>
+			<h3>EC2 First Steps</h3>
+			<img src="img/get_started_b.svg" class="svg">
+			<aside class="notes">
+				Elastic IP is a public IP you can move.<br>
+			</aside>
+		</section>
+		<section>
+			<h3>Highly Available</h3>
+			<img src="img/get_started_ha.svg" class="svg">
+			<aside class="notes">
+				You can also setup a basic HA environment with an ELB.
+			</aside>
+		</section>
+		<section>
+			<h3>Highly Available</h3>
+			<img src="img/get_started_ha2.svg" class="svg">
+			<aside class="notes">
+				ELB offer features you'd expect such as sticky sessions.
+				<br><br>
+				EC2 might not be like a VM you've used before.<br>
+				Lets disect the EC2...
+			</aside>
+		</section>
+		<section>
+			<h3>Elastic Block Storage (EBS)</h3>
+			<img src="img/ebs.svg" class="svg">
+			<aside class="notes">
+				An EC2 is a collection of CPU and Memory resources running on some physical hardware somewhere.<br>
+				The hard disk or EBS is on another machine<br>
+				Essentially network-attached-storage.
+			</aside>
+		</section>
+		<section>
+			<h3>Attach EBS to New EC2</h3>
+			<img src="img/ebs2.svg" class="svg">
+			<aside class="notes">
+				You can detach EBS from a EC2 and re-attach to another!<br>
+				Stop and ask for questions.
+			</aside>
+		</section>
+
+
+		<section data-state="section">
+			<h2>S3</h2>
+			<p>Simple Storage Service</p>
+			<aside class="notes"></aside>
+		</section>
+		<section>
+			<h3>What is S3?</h3>
+			<p><blockquote>Amazon S3 is <strong>storage for the Internet</strong>. It’s a simple storage service that offers software developers a highly-scalable, reliable, and low-latency data storage infrastructure at very low costs.</blockquote> - <a href="http://aws.amazon.com/s3/faqs/#What_is_Amazon_S3">AWS</a></p>
+			<aside class="notes">Storage for the Internet -- but, what does that mean?</aside>
+		</section>
+		<section>
+			<h3>What is S3?</h3>
+			<p>Your own &quot;Content Delivery Network (CDN)&quot;</p>
+			<img src="img/s3.svg" class="svg">
+			<aside class="notes">
+				Your own content delivery network
+			</aside>
+		</section>
+		<section>
+			<h3>What can you do with S3?</h3>
+			<ul>
+				<li>Serve files like CSS, JS, Images, etc...</li>
+				<li>Cheap file storage and archive (Glacier)</li>
+				<li>Stream videos directly to clients (Flash and/or HTML5)</li>
+				<li>Serve an entire static site
+					<ul>
+						<li>Point Domain</li>
+						<li>Store HTML, JS, CSS, IMGs</li>
+						<li>GO!</li>
+				</li>
+			</ul>
+			<aside class="notes">
+				Smart, fast and getting cheaper all the time.<br>
+				Railo and CF have long supported S3.
+			</aside>
+		</section>
+		<section>
+			<h3>ColdFusion Loves S3!</h3>
+			<p>Just use a file path like so:</p>
+			<br>
+			<p class="code"><span style="color: blue;">s3://</span><span style="color: red;">accessKeyId</span>:<span style="color: green;">awsSecretKey</span>@<span style="color: blue;">bucket/x/y/sample.txt</span></p>
+			<aside class="notes">
+				Just provide an Access Key and Secret Key<br>
+				Path to physical file<br>
+				Save, Delete, Read your files!<br><br>
+				Questions?
+			</aside>
+		</section>
+
+
+
+		<section data-state="section">
+			<h2>SimpleDB</h2>
+			<p>Simple database</p>
+			<aside class="notes"></aside>
+		</section>
+		<section>
+			<h3>What is SimpleDB?</h3>
+			<p><blockquote>Amazon SimpleDB is a highly available, flexible, and <strong>scalable non-relational data store</strong> that offloads the work of database administration. It provides the core database functions of data indexing and querying in the cloud.</blockquote> - <a href="http://aws.amazon.com/simpledb/faqs/#What_is_Amazon_SimpleDB">AWS</a></p>
+			<aside class="notes">
+				But, what does that really mean?<br>
+				You might want to think about it as a single table database.<br>
+				Flexable schema<br>
+			</aside>
+		</section>
+		<section>
+			<h3>What can you do with SimpleDB?</h3>
+			<ul>
+				<li>Send small messages to a single-table datastore (logging, transactions, etc..)</li>
+				<li>Quickly sync data across the globe.</li>
+			</ul>
+			<aside class="notes"></aside>
+		</section>
+		<section>
+			<h3>SimpleDB Limitations?</h3>
+			<ul>
+				<li>Not a relational database</li>
+				<li>Max 10gb per domain</li>
+				<li>Max One Billion records per domain</li>
+				<li>Keys can't exceed 1024 bytes</li>
+				<li>Values can't exceed 1024 bytes</li>
+				<li style="color: red;">No visibility in AWS Console</li>
+			</ul>
+			<aside class="notes">
+				Used for logging and observing applications.<br>
+				Something like Hoth is perfect for SimpleDB<br>
+				Every error saves a small message and timestamp so we can count and determine frequency.<br>
+			</aside>
+		</section>
+
+
+
+		<section data-state="section">
+			<h2>DynamoDB</h2>
+			<p>High-performance NoSQL</p>
+		</section>
+		<section>
+			<h3>What is DynamoDB?</h3>
+			<p><blockquote>Amazon DynamoDB is a <strong>fully managed NoSQL database</strong> service that provides fast and predictable performance with seamless scalability. Amazon DynamoDB enables customers to offload the administrative burdens of operating and scaling distributed databases to AWS, so they don’t have to worry about hardware provisioning, setup and configuration, replication, software patching, or cluster scaling.</blockquote> - <a href="http://aws.amazon.com/dynamodb/faqs/#What_is_Amazon_DynamoDB">AWS</a></p>
+			<aside class="notes">
+				Fully managed NoSQL database.<br>
+				And that is pretty awesome<br>
+			</aside>
+		</section>
+		<section>
+			<h3>What can you do with DynamoDB?</h3>
+			<ul>
+				<li>Store objects in a fast, consistent NoSQL database</li>
+				<li>Use as a multi-region key/value cache</li>
+				<li>Connect to Elastic MapReduce to perform deep analysis</li>
+			</ul>
+			<aside class="notes">
+				Use it as a cache<br>
+				Store your data schema free!<br>
+			</aside>
+		</section>
+		<section>
+			<h3>DynamoDB Limitations?</h3>
+			<ul>
+				<li>Not a relational database</li>
+				<li>Keys can't exceed 255 characters or 255 bytes</li>
+				<li>Values/Attributes can't exceed 64kb</li>
+				<li>You need to configure your throughput</li>
+				<li><a target="_blank" href="http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html">Read more...</a></li>
+			</ul>
+			<aside class="notes"></aside>
+		</section>
+
+		<section data-state="section">
+			<h2>RDS</h2>
+			<p>Relational Database Service</p>
+			<aside class="notes"></aside>
+		</section>
+		<section>
+			<h3>What is RDS?</h3>
+			<p><blockquote>Amazon Relational Database Service (Amazon RDS) is a web service that makes it easy to <strong>set up, operate, and scale a relational database</strong> in the cloud. It provides cost-efficient and resizable capacity, while managing time-consuming database administration tasks, freeing you up to focus on your applications and business.</blockquote> - <a href="http://aws.amazon.com/rds/faqs/#1">AWS</a></p>
+			<aside class="notes">
+				Fully managed database.<br>
+				That DBA who is a pain in your butt? FIRE HIM!<br>
+			</aside>
+		</section>
+		<section>
+			<h3>What databases are supported?</h3>
+			<ul>
+				<li>MySQL</li>
+				<li>Oracle</li>
+				<li>Microsoft SQL Server</li>
+			</ul>
+			<img src="img/rds.svg">
+			<aside class="notes">
+
+			</aside>
 		</section>
 
 		<section>
-			<section>
-				<h2>Amazon Elastic Compute Cloud (<strong>EC2</strong>)</h2>
-			</section>
-			<section>
-				<h3>What is an EC2</h3>
-				<p><blockquote>Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides <strong>resizable compute capacity in the cloud</strong>. It is designed to make web-scale computing easier for developers.</blockquote> - <a href="http://aws.amazon.com/ec2/faqs/#What_is_Amazon_Elastic_Compute_Cloud_Amazon_EC2">AWS</a></p>
-			</section>
-			<section>
-				<h3>EC2 First Steps</h3>
-				<ul>
-					<li><a href="https://aws.amazon.com/marketplace/pp/B00BR6SYHW/ref=mkt_ste_whatsnew_codlfusion">ColdFusion 10 AMI</a> ("Amazon Machine Image")</li>
-					<li><a href="https://github.com/getrailo/railo/wiki/Railo_Installation#wiki-Cloud_Deployment">Railo AMI</a></li>
-					<li>
-						Create your own AMI
-						<ul>
-							<li>Start with your OS</li>
-							<li>Install your software (Apache? Nginx? Tomcat? ColdFusion?)</li>
-						</ul>
-					</li>
-				</ul>
-			</section>
-			<section>
-				<h3>EC2 First Steps</h3>
-				<img src="img/get_started_b.svg" class="svg">
-			</section>
-			<section>
-				<h3>Highly Available</h3>
-				<img src="img/get_started_ha.svg" class="svg">
-			</section>
-			<section>
-				<h3>Highly Available</h3>
-				<img src="img/get_started_ha2.svg" class="svg">
-			</section>
-			<section>
-				<h3>Elastic Block Storage (EBS)</h3>
-				<img src="img/ebs.svg" class="svg">
-			</section>
-			<section>
-				<h3>Attach EBS to New EC2</h3>
-				<img src="img/ebs2.svg" class="svg">
-			</section>
+			<h3>High Availability</h3>
+			<img src="img/rds2.svg" style="height: 100%">
+			<aside class="notes">
+				Automatic replication across AZ<br>
+				Questions?
+			</aside>
+		</section>
+
+		<section data-state="section">
+			<h2>ElastiCache</h2>
+			<p>Distributed Cache</p>
+			<aside class="notes">
+				Cluster Cache
+			</aside>
+		</section>
+		<section>
+			<h3>What is ElastiCache?</h3>
+			<p><blockquote>Amazon ElastiCache is a web service that makes it easy to deploy, operate, and scale an <strong>in-memory cache in the cloud</strong>.</blockquote> - <a href="http://aws.amazon.com/elasticache/faqs/#What_is_Amazon_ElastiCache">AWS</a></p>
+			<aside class="notes">
+				Distributed, In-Memory Cache over the Wire
+			</aside>
+		</section>
+		<section>
+			<h3>Distributed Memcached!</h3>
+			<img src="img/elasticache.svg" class="svg">
+			<aside class="notes">
+				Auto replication within AZ<br>
+				Meets the full Memcached specificaton<br>
+				Super easy integration with Railo!<br>
+			</aside>
+		</section>
+
+		<section data-state="section">
+			<h2>SQS</h2>
+			<p>Simple Queue Service</p>
+			<aside class="notes"></aside>
+		</section>
+		<section>
+			<h3>What is SQS?</h3>
+			<p><blockquote>Amazon Simple Queue Service (Amazon SQS) offers a reliable, highly scalable <strong>hosted queue for storing messages as they travel between computers</strong>. By using Amazon SQS, developers can simply move data between distributed application components performing different tasks, without losing messages or requiring each component to be always available.</blockquote> - <a href="http://aws.amazon.com/elasticache/faqs/#What_is_Amazon_ElastiCache">AWS</a></p>
+			<aside class="notes">
+				Offers a means to connect distributed components.<br>
+				Connect one EC2 to another<br>
+				Break-off work by dispatching a message<br>
+				Similar to an Event Gateway or something like Apache MQ
+			</aside>
+		</section>
+		<section>
+			<h3>Safe Pub + Sub!</h3>
+			<img src="img/sqs.svg" class="svg">
+			<aside class="notes">
+				Publish a message.<br>
+				AWS Stores message in it's queue.<br>
+				You collect one to ten messages<br>
+				Tell AWS you successfully processed the message<br>
+				Message survives until you release.
+			</aside>
+		</section>
+
+		<section data-state="section">
+			<h2>Elastic Beanstalk</h2>
+			<p>Platform as a service</p>
+			<aside class="notes"></aside>
+		</section>
+		<section>
+			<h3>What is Elastic Beanstalk?</h3>
+			<p><blockquote>AWS Elastic Beanstalk <strong>makes it even easier for developers to quickly deploy and manage applications in the AWS cloud</strong>. Developers simply upload their application, and Elastic Beanstalk automatically handles the deployment details of capacity provisioning, load balancing, auto-scaling, and application health monitoring.</blockquote> - <a href="http://aws.amazon.com/elasticbeanstalk/faqs/#what-is">AWS</a></p>
+			<aside class="notes">
+				This paragrpah would tell you a bunch of blah blah blah.<br>
+				What does it really mean to you?
+			</aside>
+		</section>
+		<section>
+			<h3>Easy Java Application Deployment</h3>
+			<img src="img/elasticbeanstalk.svg" class="svg">
+			<aside class="notes">
+				Elastic Beanstalk automates setting up and configuring an application or environment.<br>
+				Elastic Beanstalk manages setting up you EC2s in multiple AZs, deploying new builds<br>
+				It automatically senses trouble and can replace bad EC2s.<br>
+			</aside>
+		</section>
+		<section>
+			<h3>Flexable</h3>
+			<img src="img/elasticbeanstalk_detail.svg" class="svg">
+			<aside class="notes">
+				This is Adobe TV's Elastic Beanstalk setup.<br>
+				Elastic Beanstalk allows you to setup multiple Applications<br>
+				Within each application you can have multiple environments<br>
+				Environments can share builds (upload once and deploy elsewhere)<br>
+				Each environment can run a different build<br>
+				Adobe TV FE; Adobe TV CMS
+			</aside>
+		</section>
+		<section>
+			<h3>Address using CNAMEs</h3>
+			<img src="img/elasticbeanstalk_cnames.svg" class="svg">
+			<aside class="notes">
+				Instead of using IPs you point your domain to a Elastic Beanstalk CNAME.<br>
+				A CNAME can be attached to a single environment<br>
+				These CNAMES can be swapped at will...
+			</aside>
+		</section>
+		<section>
+			<h3>Point Domain to CNAME and Swap!</h3>
+			<img src="img/elasticbeanstalk_cnames2.svg" class="svg">
+			<aside class="notes">
+				Takes just seconds to swtich between environments<br>
+				Longest I've seen is two min.
+			</aside>
+		</section>
+		<section>
+			<h3>Point Domain to CNAME and Swap!</h3>
+			<img src="img/elasticbeanstalk_cnames3.svg" class="svg">
+			<aside class="notes"></aside>
+		</section>
+		<section>
+			<h5>Demo</h5>
+			<p>Let's deploy a new build with Git, Ant and Jenkins!</p>
+			<img src="img/jenkins.png">
+			<aside class="notes"></aside>
+		</section>
+		<section>
+			<p>This side held an iFrame for our Jenkins instance</p>
+		</section>
+		<section>
+			<a href="https://console.aws.amazon.com/elasticbeanstalk/home?region=us-east-1" target="_blank">Go to AWS</a>
+		</section>
+		<section>
+			<h2>Grab the Java Helper</h2>
+			<p><a target="_blank" href="https://github.com/wreckingball/elastic-beanstalk-deployment">github.com/wreckingball/elastic-beanstalk-deployment</a></p>
+			<p><small>-jar elastic-beanstalk-deployment.jar ${dir.package}/${versionTag}.war ${versionTag} ${aws.s3bucketName} ${aws.elasticBeanstalkApplicationName} ${aws.ElasitcBeanstalkEnvironmentName} ${aws.accessKey} ${aws.secretKey}</small></p>
+			<aside class="notes"></aside>
+		</section>
+
+		<section data-state="atv">
+			<aside class="notes">While we wait for the build to be completed lets look at how Adobe TV works...</aside>
 		</section>
 
 		<section>
-			<section>
-				<h2>S3</h2>
-				<p>Simple Storage Service</p>
-			</section>
-			<section>
-				<h3>What is S3?</h3>
-				<p><blockquote>Amazon S3 is <strong>storage for the Internet</strong>. It’s a simple storage service that offers software developers a highly-scalable, reliable, and low-latency data storage infrastructure at very low costs.</blockquote> - <a href="http://aws.amazon.com/s3/faqs/#What_is_Amazon_S3">AWS</a></p>
-			</section>
-			<section>
-				<h3>What is S3?</h3>
-				<p>Your own &quot;Content Delivery Network (CDN)&quot;</p>
-				<img src="img/s3.svg" class="svg">
-			</section>
-			<section>
-				<h3>What can you do with S3?</h3>
-				<ul>
-					<li>Serve files like CSS, JS, Images, etc...</li>
-					<li>Cheap file storage and archive (Glacier)</li>
-					<li>Stream videos directly to clients (Flash and/or HTML5)</li>
-					<li>Serve an entire static site
-						<ul>
-							<li>Point Domain</li>
-							<li>Store HTML, JS, CSS, IMGs</li>
-							<li>GO!</li>
-					</li>
-				</ul>
-			</section>
-			<section>
-				<h3>ColdFusion Loves S3!</h3>
-				<p>Just use a file path like so:</p>
+			<img src="img/arch_atv_1.svg">
+			<aside class="notes">
+				Adobe TV runs on an EC2 with 6gb of memory in production<br>
+				We could use a 2gb EC2 but we chose to cache some items in local memory with CacheBox<br>
+			</aside>
+		</section>
+		<section>
+			<img src="img/arch_atv_2.svg">
+			<aside class="notes">
+				We deploy all builds using Elastic Beanstalk.<br>
+				Elastic Beanstalk deploys Adobe TV into two availability zones.
+			</aside>
+		</section>
+		<section>
+			<img src="img/arch_atv_3.svg">
+			<aside class="notes">
+				To deploy we commit to our master branch<br>
+				Jenkins builds Adobe TV including<br>
+				Compiling our CSS and JS and uploaidng to the CDN<br>
+				Compiling CFML to ByteCode<br>
+				Packaging the application into a Java WAR file<br>
+				Uploading the WAR to S3<br>
+				Interacting with the AWS Elastic Beanstalk API to deploy the WAR to an Environment
+			</aside>
+		</section>
+		<section>
+			<img src="img/arch_atv_4.svg">
+			<aside class="notes">
+				For each request we try to serve a cached page<br>
+				Each EC2 shares a common cache thanks to ElastiCache<br>
+			</aside>
+		</section>
+		<section>
+			<img src="img/arch_atv_5.svg">
+			<aside class="notes">
+				Thanks to the Memcached API this integration is quite easy<br>
+				Railo offers a plugin for Memcached<br>
+				However, we use a ColdBox CacheBox Provider that I've opened sourced<br>
+			</aside>
+		</section>
+		<section>
+			<img src="img/arch_atv_m_z.svg">
+			<aside class="notes">
+				A cache can be accessed from any AZ within a region<br>
+				You can setup a cache in each AZ to reduce cache latency<br>
+			</aside>
+		</section>
+		<section>
+			<img src="img/arch_atv_6.svg">
+			<aside class="notes">
+				Of course, if the page or object is not in the cache we have to get it the slow way<br>
+				So, we make a trip to the database!<br>
+				This is where you would expect we'd perform some SQL queries<br>
+				Adobe TV is an ORM application<br>
+				To generate some pages we might need to perform 300 queries or more on an empty cache.<br>
+				This is where our application really diverges from "Normal".
+			</aside>
+		</section>
+		<section>
+			<img src="img/arch_atv_7.svg">
+			<aside class="notes">
+				We blend Relational Databases with NoSQL<br>
+				RDS holds the "master" records while DynamoDB holds Mementos or snapshots of our objects.<br>
+				<br>To help illustrate this concept I'll walk you through some abstract code<br>
+			</aside>
+		</section>
+		<section data-state="servicecall">
+			<aside class="notes">
+				This is a method in Adobe TV's Episode Service.<br>
+				You can see this method accepts a large number of arguments<br>
+				Essentially, anyway we might want to access or filter a Adobe TV episode is supported here<br>
+				BuildArguments uses CFCs metadata to validate service requirements<br>
+				MakeCall essentially passes these arguments to a DAO<br>
+			</aside>
+		</section>
+
+		<section data-state="servicecall2">
+			<aside class="notes">
+				Our DAOs basically loop over known arguments to generate SQL statements<br>
+				This example shows a snippet of Episode params or filters.<br>
+			</aside>
+		</section>
+
+		<section data-state="servicecall3">
+			<aside class="notes">
+				For example, if we wanted to query episodes with a URLName of X
+			</aside>
+		</section>
+
+		<section data-state="servicecall4">
+			<aside class="notes">
+				That are not more than 60 days old
+			</aside>
+		</section>
+
+		<section data-state="servicecall5">
+			<aside class="notes">
+				And we wanted to sort these episodes by the date they were added to the library<br>
+				we would provide three params to the dao: URLName, Age and a Sort Instruction<br>
+				And the DAOs will append some arrays that get joined into a string<br>
+				<br>The end result would look like...
+			</aside>
+		</section>
+
+		<section data-state="servicecall6">
+			<aside class="notes">
+				We now have a SQL query we can execute aginst our Oracle Database<br>
+				You can see we're grabbing a PK and some realtime informaton<br>
+				The playcount and rating can change very quickly<br>
+				Every time we generate a page we make this query<br>
+				For each request we get the current playcout and rating for the episode.
+			</aside>
+		</section>
+
+		<section data-state="servicecall7">
+			<aside class="notes">
+				In DynamoDB we hold JSON serializations of objects like this Episode<br>
+				There is a lot of data in this memento--basically the entire Episode and its relationships are represented<br>
+				I've hidden a lot of data such as attachments, keywords, presenters, products, skills, and translations.<br>
+				BUT, the data is all contained in this JSON serializaton<br>
+				We store this data in our DynamoDB<br>
+				Allows many fewer network calls.
+			</aside>
+		</section>
+
+		<section data-state="servicecall8">
+			<aside class="notes">
+				Some fields are not saved as part of this JSON serialization.<br>
+				We want every user to have real-time access to these fields for each episode<br>
+				Playcount<br>
+				Rating<br>
+				Count of Ratings<br>
+				Episode Status
 				<br>
-				<p class="code"><span style="color: blue;">s3://</span><span style="color: red;">accessKeyId</span>:<span style="color: green;">awsSecretKey</span>@<span style="color: blue;">bucket/x/y/sample.txt</span></p>
-			</section>
+				<br>
+			</aside>
+		</section>
+
+		<section data-state="servicecall9">
+			<aside class="notes">
+				We then deserialize the JSON mementos<br>
+				Loop over the SQL Query and Hydrate our JSON Memento with this real-time data<br>
+			</aside>
+		</section>
+
+		<section data-state="servicecall10">
+			<aside class="notes">
+				All of this work to quickly serve a page with real-time info where needed<br>
+				<br>See it in action -- Episode 123
+			</aside>
 		</section>
 
 		<section>
-			<section>
-				<h2>Simple DB</h2>
-				<p>Simple database</p>
-			</section>
-			<section>
-				<h3>What is Simple DB?</h3>
-				<p><blockquote>Amazon SimpleDB is a highly available, flexible, and <strong>scalable non-relational data store</strong> that offloads the work of database administration. It provides the core database functions of data indexing and querying in the cloud.</blockquote> - <a href="http://aws.amazon.com/simpledb/faqs/#What_is_Amazon_SimpleDB">AWS</a></p>
-			</section>
-			<section>
-				<h3>What can you do with Simple DB?</h3>
-				<ul>
-					<li>Send small messages to a single-table datastore (logging, transactions, etc..)</li>
-					<li>Quickly sync data across the globe.</li>
-				</ul>
-			</section>
-			<section>
-				<h3>Simple DB Limitations?</h3>
-				<ul>
-					<li>Not a relational database</li>
-					<li>Max 10gb per domain</li>
-					<li>Max One Billion records per domain</li>
-					<li>Keys can't exceed 1024 bytes</li>
-					<li>Values can't exceed 1024 bytes</li>
-				</ul>
-			</section>
+			<img src="img/arch_atv_8.svg">
+			<aside class="notes">
+				So that's how we read complex data quickly while keeping it real-time.<br>
+				But, what about saving data?<br>
+				That is where SQS comes in<br>
+			</aside>
 		</section>
 
 		<section>
-			<section>
-				<h2>Dynamo DB</h2>
-				<p>High-performance NoSQL</p>
-			</section>
-			<section>
-				<h3>What is Dynamo DB?</h3>
-				<p><blockquote>Amazon DynamoDB is a <strong>fully managed NoSQL database</strong> service that provides fast and predictable performance with seamless scalability. Amazon DynamoDB enables customers to offload the administrative burdens of operating and scaling distributed databases to AWS, so they don’t have to worry about hardware provisioning, setup and configuration, replication, software patching, or cluster scaling.</blockquote> - <a href="http://aws.amazon.com/dynamodb/faqs/#What_is_Amazon_DynamoDB">AWS</a></p>
-			</section>
-			<section>
-				<h3>What can you do with Dynamo DB?</h3>
-				<ul>
-					<li>Store objects in a fast, consistent NoSQL database</li>
-				</ul>
-			</section>
-			<section>
-				<h3>Dynamo DB Limitations?</h3>
-				<ul>
-					<li>Not a relational database</li>
-					<li>Keys can't exceed 255 characters or 255 bytes</li>
-					<li>Values/Attributes can't exceed 64kb</li>
-					<li>You need to configure your throughput</li>
-					<li><a target="_blank" href="http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Limits.html">Read more...</a></li>
-				</ul>
-			</section>
+			<h3>Saving Data</h3>
+			<ul>
+				<li>SQL Transaction to RDS</li>
+				<li class="fragment">Broadcast SQS Message</li>
+				<li class="fragment">Subscriber generates Mementos</li>
+				<li class="fragment">Subscriber saves data to DynamoDB</li>
+			</ul>
+			<aside class="notes">
+				CLICK! CLICK! CLICK!<br>
+				So that's how we read complex data quickly while keeping it real-time.<br>
+				But, what about saving data?<br>
+				That is where SQS comes in<br>
+			</aside>			
 		</section>
 
 		<section>
-			<section>
-				<h2>RDS</h2>
-				<p>Relational Database Service</p>
-			</section>
-			<section>
-				<h3>What is RDS?</h3>
-				<p><blockquote>Amazon Relational Database Service (Amazon RDS) is a web service that makes it easy to <strong>set up, operate, and scale a relational database</strong> in the cloud. It provides cost-efficient and resizable capacity, while managing time-consuming database administration tasks, freeing you up to focus on your applications and business.</blockquote> - <a href="http://aws.amazon.com/rds/faqs/#1">AWS</a></p>
-			</section>
-			<section>
-				<h3>What databases are supported?</h3>
-				<ul>
-					<li>MySQL</li>
-					<li>Oracle</li>
-					<li>Microsoft SQL Server</li>
-				</ul>
-				<img src="img/rds.svg" class="svg">
-			</section>
+			<img src="img/sl_3.svg">
+			<aside class="notes">
+				SQS represents a bit of a challenge for ColdFusion<br>
+				Since ColdFusion is a web framework it is not really designed to infinitly poll a queue.<br>
+				We use Event Gateways. When application starts the EGW starts<br>
+				At the end of each message we always trigger a new EGW message<br>
+				Each message checks the SQS queue<br>
+				We don't really need SQS--dispatching these EGW messages is almost the same<br>
+				We use SQS because it will survive a application crash.
+			</aside>
 		</section>
 
 		<section>
-			<section>
-				<h2>ElastiCache</h2>
-				<p>Distributed Cache</p>
-			</section>
-			<section>
-				<h3>What is ElastiCache?</h3>
-				<p><blockquote>Amazon ElastiCache is a web service that makes it easy to deploy, operate, and scale an <strong>in-memory cache in the cloud</strong>.</blockquote> - <a href="http://aws.amazon.com/elasticache/faqs/#What_is_Amazon_ElastiCache">AWS</a></p>
-			</section>
-			<section>
-				<h3>Distributed Memcached!</h3>
-				<img src="img/elasticache.svg" class="svg">
-			</section>
+			<img src="img/arch_atv_9.svg">
+			<aside class="notes">
+				The last part of the ATV ecosystem is our CDN which in this case is Akamai (business reasons).
+			</aside>
 		</section>
 
 		<section>
-			<section>
-				<h2>SQS</h2>
-				<p>Simple Queue Service</p>
-			</section>
-			<section>
-				<h3>What is SQS?</h3>
-				<p><blockquote>Amazon Simple Queue Service (Amazon SQS) offers a reliable, highly scalable <strong>hosted queue for storing messages as they travel between computers</strong>. By using Amazon SQS, developers can simply move data between distributed application components performing different tasks, without losing messages or requiring each component to be always available.</blockquote> - <a href="http://aws.amazon.com/elasticache/faqs/#What_is_Amazon_ElastiCache">AWS</a></p>
-			</section>
-			<section>
-				<h3>Safe Pub + Sub!</h3>
-				<img src="img/sqs.svg" class="svg">
-			</section>
+			<a href="http://edex.adobe.com/">Go to Education Exchange</a>
+			<aside class="notes">
+				Show homepage events
+			</aside>
 		</section>
 
 		<section>
-			<section>
-				<h2>Elastic Beanstalk</h2>
-				<p>Platform as a service</p>
-			</section>
-			<section>
-				<h3>What is Elastic Beanstalk?</h3>
-				<p><blockquote>AWS Elastic Beanstalk <strong>makes it even easier for developers to quickly deploy and manage applications in the AWS cloud</strong>. Developers simply upload their application, and Elastic Beanstalk automatically handles the deployment details of capacity provisioning, load balancing, auto-scaling, and application health monitoring.</blockquote> - <a href="http://aws.amazon.com/elasticbeanstalk/faqs/#what-is">AWS</a></p>
-			</section>
-			<section>
-				<h3>Easy Java Application Deployment</h3>
-				<img src="img/elasticbeanstalk.svg" class="svg">
-			</section>
+			<img src="img/game9.svg">
+			<aside class="notes">
+				For every user action we dispatch an Event<br>
+				For example, when a user logs in we...
+			</aside>
 		</section>
 
-<!--
-- Thank you cfObjective organizers and sponsors by name
-- Thank you for attending this session, honored.
-- Thank Wrecking Ball Media and associates by name for their contributions
+		<section>
+			<img src="img/game7.svg">
+			<aside class="notes">
+				We trigger a "OnLogin" event which records the users login<br>
+				But, that's not all!<br>
+				This gamification engine will evaluate to see if conditions are right<br>
+				If so, we might end up awarding a point to the user.
+			</aside>
+		</section>
 
-- Who is Wrecking Ball
-	Introduce logo
-	Some of the work we do
-		- Adobe TV
-		- Education Exchange
-		- TWC
-		- YOD
-		- BRIGHTHOUSE
+		<section>
+			<img src="img/game6.svg">
+			<aside class="notes">
 
--Look for a show of hands for who is running a production app in AWS?
--Look for a show of hands for who has played with the AWS cloud
+			</aside>
+		</section>
 
-Introduction to AWS
-- Basic components: EC2, ElasticIP, S3, Images, ELB, EBS, Etc...
+		<section>
+			<img src="img/game5.svg">
+			<aside class="notes">
+				Some actions, always award points.<br>
+				For example, viewing a resource will earn points<br>
+				But, it gets more complicated than just giving you a point.
+			</aside>
+		</section>
 
-Why would you want to use AWS?
-- Services "outsource" work from your own company
-	- Database***
-	- Caching ***
-	- General deployment
+		<section>
+			<img src="img/game4.svg">
+			<aside class="notes">
+				We also need to award points to the user who authored the resource!<br>
+				Now your actions have modified your status as well as the authors<br>
+				Which just might cause another event to occur....
+			</aside>
+		</section>
 
-Why would you NOT want to use AWS?
-	- Application requires fastest possible speeds (Why are you using CF? still)
+		<section>
+			<img src="img/game3.svg">
+			<aside class="notes">
+				We might need to award the author a Badge<br>
+				And when we award a badge we need to send the effected user a notification<br>
+				<br>Continuing with our active users session...
+			</aside>
+		</section>
 
-Deployment
-- Discuss most basic environment running an EC2 with a static IP address
-	- PROS: Most traditional configuration
-	- CONS: More work to automate your environment
-- ElasticBeanstalk ***
-	- What is it?
-	- Why would you want to use it?
-		- Illustrate how things worked for Adobe TV at Rackspace
-		- Illustrate how things work for Adobe TV on ElasticBeanstalk
-		- Fully QA an environment before launching to public
-	- What are the downsides?
-		- Logging
-		- Thirdparty apps are not cloud ready (ex: Fusion Reactor)
-	- Share the Java Source Coede and Jenkins Setup
-	- Demonstrate an Adobe TV Deployment to DEV
+		<section>
+			<img src="img/game2.svg">
+			<aside class="notes">
+				They might choose to comment on the resource<br>
+				Which triggers notifications to anyone subscribed to the resource or discussion.<br>
+			</aside>
+		</section>
 
-Database
-	- Running your own database on an EC2 or cluster of EC2s
-	- Using AWS RDS Service
-		- Snapshots
-		- Deploying from a snap shot
+		<section>
+			<img src="img/game1.svg">
+			<aside class="notes">
+				And then the user might view the authors profile<br>
+				Which will cause more points to occur<br>
+				Could cause more badges to be awarded<br>
+				Etc...
+			</aside>
+		</section>
 
-Dynamo DB
-	- What is it?
-	- How might you use it?
 
-Simple DB
-	- What is it?
-	- How might you use it?
+		<section id="final">
+			<h2>Thank you!</h2>
+			<p>Q&A</p>
+		</section>
 
-Caching
-	- Breif overview of caching setups if you were using an EC2
-		- Using internal EHCache
-		- Setup your own cluster
-	- Introduce AWS ElastiCache
-		- Cimple cluster cache!
-
-SQS Messages
-	- What is it?
-	- Why would you want to use it?
-		- Gamification Example from EDEX
-	- How would you want to use it?
-		- Illustrate Request -> EGW -> SQS -> EGW and broadcast another message
-	- What are the downsides?
-
-SNS Messages
-	- What is it?
-	- How would you want to use it?
-		- Illustrate request -> EGW -> SNS
-	- Why would you want to use it?
-		- Low volume mail is easy!
-	- What are the downsides?
-		- Not a mass mailer
-
-Arhetecting for the cloud
-	- Precompile CFML into Bytecode to avoid initial compilation which is slow from ELB
-	- Avoid disk access on your EC2 where possible and throw data into EC2 memory or cache memory
-	- Use AWS s3 to "cluster" files. It's easy!
-	- Use caching.
- -->
 	</div>
 
 </div>
@@ -578,6 +1284,43 @@ Arhetecting for the cloud
 		]
 	});
 
+	Reveal.addEventListener( 'slidechanged', function( event ) {
+
+		if (event.indexh == 100)
+		{
+			window.ended = true;
+			document.getElementById('video').style.display = 'block';
+			document.getElementById('front').style.display = 'block';
+			document.getElementById('front').src='img/bg1.mp4';
+			return;
+		}
+		if (event.indexh == 0)
+		{
+			window.ended = false;
+			document.getElementById('video').style.display = 'block';
+			document.getElementById('front').style.display = 'block';
+			document.getElementById('front').src='img/bg.mp4';
+			return;
+		}
+
+		document.getElementById('video').style.display = 'none';
+		document.getElementById('front').style.display = 'none';
+
+	} );
+	window.ended=false;
+	vidEnded = function()
+	{
+		if (!window.ended)
+		{
+			//document.getElementById('front').src='img/bg.mp4';
+			document.getElementById('front').play();
+			return;
+		}
+
+		document.getElementById('front').src='img/bg2.mp4';
+		document.getElementById('front').play();
+
+	}
 </script>
 
 </body>

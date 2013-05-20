@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="612px" height="455px" viewBox="0 0 612 455" enable-background="new 0 0 612 455" xml:space="preserve">
+<path fill-rule="evenodd" clip-rule="evenodd" fill="#48A2DA" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="
+	M109.583,279c0,6.627-5.373,12-12,12h-57c-6.627,0-12-5.373-12-12V58c0-6.627,5.373-12,12-12h57c6.627,0,12,5.373,12,12V279z"/>
+<g>
+	<text transform="matrix(1 0 0 1 55.4736 35)" font-family="'MyriadPro-Bold'" font-size="19.043">SQS</text>
+</g>
+<g>
+	
+		<rect x="43.583" y="73" fill-rule="evenodd" clip-rule="evenodd" fill="#DEDDDD" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="51" height="28"/>
+	
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#ABABAB" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="
+		46.583,73.882 69.525,87.118 91.583,73.882 	"/>
+</g>
+<g>
+	
+		<rect x="43.583" y="122" fill-rule="evenodd" clip-rule="evenodd" fill="#DEDDDD" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="51" height="28"/>
+	
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#ABABAB" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="
+		46.583,122.882 69.525,136.118 91.583,122.882 	"/>
+</g>
+<g>
+	
+		<rect x="43.583" y="168" fill-rule="evenodd" clip-rule="evenodd" fill="#DEDDDD" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="51" height="28"/>
+	
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#ABABAB" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="
+		46.583,168.883 69.525,182.117 91.583,168.883 	"/>
+</g>
+<g>
+	
+		<rect x="43.583" y="217" fill-rule="evenodd" clip-rule="evenodd" fill="#DEDDDD" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="51" height="28"/>
+	
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#ABABAB" stroke="#000000" stroke-width="2" stroke-miterlimit="10" points="
+		46.583,217.883 69.525,231.117 91.583,217.883 	"/>
+</g>
+<path fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" d="M265,151c0-43.666-59.934-79-134-79"/>
+<path fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" d="M67,300c0,42.561,55.908,77,125,77"/>
+<polygon points="128,71 139,82 139,62 "/>
+<polygon points="200,378 189,367 189,387 "/>
+<g>
+	<g>
+		<path fill="#98CE83" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M298.119,392.544
+			c0,9.811-7.955,17.766-17.766,17.766h-31.09c-9.811,0-17.764-7.955-17.764-17.766v-31.088c0-9.811,7.953-17.766,17.764-17.766
+			h31.09c9.811,0,17.766,7.955,17.766,17.766V392.544z"/>
+		<text transform="matrix(1 0 0 1 249.1475 382.5894)" font-family="'MyriadPro-Regular'" font-size="19.043">EC2</text>
+	</g>
+	<path fill="#98CE83" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M298.119,392.544
+		c0,9.811-7.955,17.766-17.766,17.766h-31.09c-9.811,0-17.764-7.955-17.764-17.766v-31.088c0-9.811,7.953-17.766,17.764-17.766
+		h31.09c9.811,0,17.766,7.955,17.766,17.766V392.544z"/>
+	<text transform="matrix(1 0 0 1 249.1475 382.5894)" font-family="'MyriadPro-Regular'" font-size="19.043">EC2</text>
+</g>
+<g>
+	<g>
+		<path fill="#98CE83" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M298.31,211.544
+			c0,9.811-7.955,17.766-17.766,17.766h-31.09c-9.811,0-17.764-7.955-17.764-17.766v-31.088c0-9.811,7.953-17.766,17.764-17.766
+			h31.09c9.811,0,17.766,7.955,17.766,17.766V211.544z"/>
+		<text transform="matrix(1 0 0 1 249.3374 201.5894)" font-family="'MyriadPro-Regular'" font-size="19.043">EC2</text>
+	</g>
+	<g>
+		<path fill="#98CE83" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M298.31,211.544
+			c0,9.811-7.955,17.766-17.766,17.766h-31.09c-9.811,0-17.764-7.955-17.764-17.766v-31.088c0-9.811,7.953-17.766,17.764-17.766
+			h31.09c9.811,0,17.766,7.955,17.766,17.766V211.544z"/>
+		<text transform="matrix(1 0 0 1 249.3374 201.5894)" font-family="'MyriadPro-Regular'" font-size="19.043">EC2</text>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 134.1123 284.0342)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="23.6576">Subscriber is a ColdFusion Event Gateway CFC</tspan><tspan x="0" y="28.389" font-family="'MyriadPro-Regular'" font-size="23.6576">that triggers itself at the end of each occurance.</tspan></text>
+<circle fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" cx="381.667" cy="393.333" r="39.444"/>
+<polygon points="341.223,398.5 352.223,387.5 332.223,387.5 "/>
+<polygon points="421.111,383.999 410.111,394.999 430.111,394.999 "/>
+<g>
+	
+		<ellipse fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" cx="445.979" cy="390.424" rx="10.156" ry="5.771"/>
+	
+		<ellipse fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" cx="465.401" cy="390.424" rx="10.156" ry="5.771"/>
+</g>
+</svg>

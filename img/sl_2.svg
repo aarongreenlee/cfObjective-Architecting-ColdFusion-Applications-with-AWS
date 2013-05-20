@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="612px" height="332.222px" viewBox="0 0 612 332.222" enable-background="new 0 0 612 332.222" xml:space="preserve">
+<path fill="#D22026" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="M524.5,126.961c0,3.765-5.373,6.816-12,6.816
+	h-145c-6.627,0-12-3.052-12-6.816V44.594c0-3.765,5.373-6.816,12-6.816h145c6.627,0,12,3.052,12,6.816V126.961z"/>
+<text transform="matrix(1 0 0 1 168 19.7783)" font-family="'MyriadPro-Bold'" font-size="19.043">RDS</text>
+<text transform="matrix(1 0 0 1 391.5 21.4443)" font-family="'MyriadPro-Bold'" font-size="19.043">DynamoDB</text>
+<text transform="matrix(1 0 0 1 42.5557 203.6665)" font-family="'MyriadPro-Regular'" font-size="19.043">Index Relations in Real Time</text>
+<text transform="matrix(1 0 0 1 355.5 203.6665)"><tspan x="0" y="0" font-family="'MyriadPro-Regular'" font-size="19.043">Single network call to</tspan><tspan x="0" y="22.852" font-family="'MyriadPro-Regular'" font-size="19.043">obtain object data</tspan></text>
+<g>
+	
+		<rect x="122" y="51.92" fill-rule="evenodd" clip-rule="evenodd" fill="#EF4136" stroke="#000000" stroke-width="2" stroke-miterlimit="10" width="121" height="56.781"/>
+	
+		<ellipse fill-rule="evenodd" clip-rule="evenodd" fill="#F48281" stroke="#000000" stroke-width="2" stroke-miterlimit="10" cx="182.5" cy="52.258" rx="60.5" ry="13.857"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#EF4136" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="
+		M122.037,79.635c0,0,3.361,14.195,59.468,14.195S243,79.635,243,79.635"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#EF4136" stroke="#000000" stroke-width="2" stroke-miterlimit="10" d="
+		M122.037,106.583c0,0,3.361,14.195,59.468,14.195S243,106.583,243,106.583"/>
+</g>
+<text transform="matrix(1 0 0 1 399.6143 64.1626)" fill="#FFFFFF" font-family="'MyriadPro-Bold'" font-size="15.1408">key = {value}</text>
+<text transform="matrix(1 0 0 1 399.6143 91.9907)" fill="#FFFFFF" font-family="'MyriadPro-Bold'" font-size="15.1408">key = {value}</text>
+<text transform="matrix(1 0 0 1 399.6143 117.4341)" fill="#FFFFFF" font-family="'MyriadPro-Bold'" font-size="15.1408">key = {value}</text>
+<g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<rect x="302.348" y="8.889" width="7.109" height="15.241"/>
+					<rect x="302.348" y="31.587" width="7.109" height="15.241"/>
+					<rect x="302.348" y="54.283" width="7.109" height="15.241"/>
+					<rect x="302.348" y="76.986" width="7.109" height="15.238"/>
+					<rect x="302.348" y="99.681" width="7.109" height="15.242"/>
+					<rect x="302.348" y="122.383" width="7.109" height="15.24"/>
+					<rect x="302.348" y="145.079" width="7.109" height="15.237"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<rect x="302.348" y="167.778" width="7.109" height="15.241"/>
+					<rect x="302.348" y="190.476" width="7.109" height="15.241"/>
+					<rect x="302.348" y="213.172" width="7.109" height="15.241"/>
+					<rect x="302.348" y="235.875" width="7.109" height="15.238"/>
+					<rect x="302.348" y="258.57" width="7.109" height="15.241"/>
+					<rect x="302.348" y="281.272" width="7.109" height="15.24"/>
+					<rect x="302.348" y="303.967" width="7.109" height="15.237"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
